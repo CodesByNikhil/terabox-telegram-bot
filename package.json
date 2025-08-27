@@ -1,0 +1,23 @@
+{
+  "name": "terabox-telegram-bot",
+  "version": "1.0.0",
+  "description": "A bot to convert Terabox links to direct video links for Telegram",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "dependencies": {
+    "telegraf": "^4.15.3",
+    "axios": "^1.6.0",
+    "dotenv": "^16.3.1",
+    "form-data": "^4.0.0",
+    "node-cron": "^3.0.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
